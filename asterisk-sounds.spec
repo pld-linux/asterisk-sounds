@@ -25,7 +25,6 @@ Dodatkowe pliki d¼wiêkowe do centralki PBX Asterisk.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{/var/{log/asterisk/cdr-csv,spool/asterisk/monitor},/etc/{rc.d/init.d,sysconfig}}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT 
