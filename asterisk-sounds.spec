@@ -32,10 +32,13 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README.txt sounds-extra.txt sounds/silence/README-silence 
-%dir /var/lib/asterisk/sounds/silence
+# /var/lib/asterisk/sounds{,/letters,/phonetic} belong to asterisk
 /var/lib/asterisk/sounds/*.gsm
+%dir /var/lib/asterisk/sounds/ha
 /var/lib/asterisk/sounds/ha/*.gsm
 /var/lib/asterisk/sounds/letters/*.gsm
 /var/lib/asterisk/sounds/phonetic/*.gsm
+%dir /var/lib/asterisk/sounds/silence
 /var/lib/asterisk/sounds/silence/*.gsm
+%dir /var/lib/asterisk/sounds/wx
 /var/lib/asterisk/sounds/wx/*.gsm
