@@ -8,7 +8,7 @@ License:	BSD
 Group:		Applications/System
 Source0:	ftp://ftp.digium.com/pub/asterisk/%{name}-%{version}.tar.gz
 # Source0-md5:	6f969ad544db7e222b01725c732b38a1
-Requires:	asterisk
+Requires:	asterisk >= 1.0.0
 URL:		http://www.asterisk.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -35,8 +35,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README.txt sounds-extra.txt sounds/silence/README-silence 
-%dir /var/lib/asterisk/sounds/letters
-%dir /var/lib/asterisk/sounds/phonetic
 %dir /var/lib/asterisk/sounds/silence
 /var/lib/asterisk/sounds/*.gsm
 /var/lib/asterisk/sounds/letters/*.gsm
