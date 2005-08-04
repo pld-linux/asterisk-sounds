@@ -1,12 +1,12 @@
 Summary:	Additional sound files for Asterisk PBX
 Summary(pl):	Dodatkowe pliki d¼wiêkowe do centralki Asterisk
 Name:		asterisk-sounds
-Version:	1.0.7
+Version:	1.0.9
 Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	ftp://ftp.digium.com/pub/asterisk/%{name}-%{version}.tar.gz
-# Source0-md5:	8b58860d74aa67ab9b7d3725de3ff6bb
+# Source0-md5:	02b8be97ac199b81fa2143694492d9c3
 URL:		http://www.asterisk.org/
 Requires:	asterisk >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
