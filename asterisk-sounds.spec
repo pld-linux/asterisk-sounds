@@ -1,5 +1,5 @@
 Summary:	Additional sound files for Asterisk PBX
-Summary(pl):	Dodatkowe pliki d¼wiêkowe do centralki Asterisk
+Summary(pl.UTF-8):   Dodatkowe pliki dÅºwiÄ™kowe do centralki Asterisk
 Name:		asterisk-sounds
 Version:	1.2.1
 Release:	1
@@ -14,8 +14,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Additional sound files for Asterisk PBX.
 
-%description -l pl
-Dodatkowe pliki d¼wiêkowe do centralki PBX Asterisk.
+%description -l pl.UTF-8
+Dodatkowe pliki dÅºwiÄ™kowe do centralki PBX Asterisk.
 
 %prep
 %setup -q
